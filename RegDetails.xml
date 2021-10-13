@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CHRIST>
+	<CS>
+		<STU-NAME>Sumit</STU-NAME>
+		<STU-BRANCH>Computer Science</STU-BRANCH>
+		<STU-COLLEGE>Christ </STU-COLLEGE>
+		<STU-EMAIL>sumit@gmail.com</STU-EMAIL>
+	</CS>
+	<CS>
+		<STU-NAME>Arpit</STU-NAME>
+		<STU-BRANCH>Data Science</STU-BRANCH>
+		<STU-COLLEGE>BVP</STU-COLLEGE>
+		<STU-EMAIL>arpit@gmail.com</STU-EMAIL>
+	</CS>
+	<CS>
+		<STU-NAME>Faizan</STU-NAME>
+		<STU-BRANCH>Big Data</STU-BRANCH>
+		<STU-COLLEGE>SRM</STU-COLLEGE>
+		<STU-EMAIL>faiz@gmail.com</STU-EMAIL>
+	</CS>
+</CHRIST>

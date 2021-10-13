@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<title>Registration|Gateways 2021</title>
+<meta name="keywords" content="Gateways, Tech Fest, Christ University" />
+<meta name="description" content="This form is to register for Gateways 2021, A tech Fest of Dept of CS, Christ University. " />
+<link rel='stylesheet' href='js-form-validation.css' type='text/css' />
+<script src="registration-form-validation.js"></script>
+</head>
+<body onload="document.registration.name.focus();">
+<h1 id="festTitle" style="text-align: center;">Gateways 2021</h1>
+<h1>Registration Form</h1>
+Use tab keys to move from one input field to the next.
+<form name='registration' onSubmit="return formValidation();">
+<ul>
+
+<li><label for="name">Name:</label></li>
+<li><input type="text" name="name" size="50" /></li>
+
+<li><label for="email">Email:</label></li>
+<li><input type="text" name="email" size="50" /></li>
+
+<li><label for="branch">Branch:</label></li>
+<li><select name="branch">
+<option selected="" value="Default">(Please select a branch)</option>
+<option value="BD">Big Data</option>
+<option value="CS">Computer Science</option>
+<option value="CS">Computer Application</option>
+<option value="DS">Data Science</option>
+<option value="ST">Statistics</option>
+</select></li>
+
+<li><label for="college">College:</label></li>
+<li><input type="text" name="college" size="50" /></li>
+
+<li><label for="address">Address:</label></li>
+<li><input type="text" name="address" size="50" /></li>
+
+<li><label for="state">State:</label></li>
+<li><select name="state">
+<option selected="" value="Default">(Please select a state)</option>
+<option value="KA">Karnataka</option>
+<option value="KE">Kerala</option>
+<option value="MH">Maharastra</option>
+<option value="DL">Delhi</option>
+<option value="BH">Bihar</option>
+<option value="AP">Andhra Pradesh</option>
+<option value="OD">Odisha</option>
+<option value="GO">Goa</option>
+<option value="TN">Tamil Nadu</option>
+</select></li>
+
+<li><label for="age">Age:</label></li>
+<li><input type="text" name="age" /></li>
+
+<li><label for="contact">Contact:</label></li>
+<li><input type="text" name="contact" size="50"/></li>
+
+<li><label for="userid">User id:</label></li>
+<li><input type="text" name="userid" size="12" /></li>
+
+<li><label for="passid">Password:</label></li>
+<li><input type="password" name="passid" size="12" /></li>
+
+<li><input type="submit" name="submit" value="Submit" /></li>
+</ul>
+</form>
+</body>
+</html>
